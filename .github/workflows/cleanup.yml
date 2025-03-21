@@ -53,6 +53,8 @@ jobs:
           url: ${{ secrets.VCLUSTER_PLATFORM_URL }}
           access-key: ${{ secrets.VCLUSTER_ACCESS_KEY }}
 
+          
+
       # Step 5: Delete vCluster
       - name: Delete vCluster
         env:
